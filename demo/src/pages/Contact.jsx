@@ -13,14 +13,18 @@ function Contact() {
         job openings that align with my skills and experience, please don't
         hesitate to reach out. I'm eager to explore new career paths and take on
         exciting challenges. So please feel free to send me a
-        <a href="#" className="text-pink mx-2 hover:text-midnight">
+        <a
+          href="https://wa.link/t89eer"
+          target="_blank"
+          className="text-pink mx-2 hover:text-midnight"
+        >
           &lt;Message/&gt;
         </a>
         I'm ready to make the most of any opportunity that comes my way!
         {/* Greetings! While I'm content in my current position, I'm always excited to hear about new opportunities and connect with others in the industry. If you have any questions or just want to drop a friendly hello, feel free to shoot me a message. I make it a point to respond promptly and am eager to engage with like-minded individuals. So don't hesitate to reach out - my inbox is always open! */}
       </p>
       <a href="https://wa.link/t89eer" target="_blank">
-        <button className="border border-pink px-4 py-1 hover:bg-fuchsia-200 dark:hover:bg-fuchsia-600 transition-all delay-75 ease-in mt-2">
+        <button className="border border-pink px-4 py-2 hover:bg-fuchsia-200 dark:hover:bg-fuchsia-600 transition-all delay-75 ease-in mt-4">
           Contact me
         </button>
       </a>

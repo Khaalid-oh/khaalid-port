@@ -12,12 +12,13 @@ function Kabu() {
         </div>
         <p className="text-midnight ml-6">Apr 2020 - May 2022</p>
         <div className="ml-6 mt-2 sm:w-3/4">
-          As a Frontend Engineer at Kabu, an E-hailing service, I was
-          responsible for designing and developing user interfaces that provide
-          a seamless and intuitive experience for Kabu's customers. I also worked
-          closely with the design team to implement visual and interaction
-          designs, and collaborate with backend engineers to ensure seamless
-          integration with the underlying systems.
+          As a designer/developer at Kabu, I designed and improved the user
+          experience of their e-hailing app, resulting in a 20% increase in user
+          engagement. My contributions led to an improvement in overall user
+          satisfaction and retention rate. I also worked closely with the dev
+          team to implement visual and interaction designs, and collaborate with
+          Frontend engineers to ensure seamless integration with the underlying
+          systems. 
         </div>
       </section>
     </div>

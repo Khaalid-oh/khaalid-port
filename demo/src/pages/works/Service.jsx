@@ -12,13 +12,12 @@ function Service() {
         </div>
         <p className="text-midnight ml-6">May 2020 - Dec 2021</p>
         <div className="ml-6 mt-2 sm:w-3/4">
-          <span className="text-pink">01.</span> Write modern, performant,
-          maintainable code for a diverse array of client and internal projects.
-          Work with a variety of different languages, platforms, frameworks, and
-          content management systems such as JavaScript. TypeScript, Gatsby,
-          React, Craft, WordPress, Prismic, and Netlity. Communicate with
-          multi-disciplinary teams of engineers, designers. producers, and
-          clients on a daily basis
+          As a designer/developer at A'service, an all inclusive service hub, I was
+          responsible for designing and developing user interfaces that provide
+          a seamless and intuitive experience for A'service's customers. I also
+          worked closely with the design team to implement visual and
+          interaction designs, and collaborate with backend engineers to ensure
+          seamless integration with the underlying systems.
         </div>
       </section>
     </div>

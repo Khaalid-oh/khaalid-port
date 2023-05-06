@@ -2,8 +2,8 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import logo from "../assets/logo.svg";
-import light from "../assets/light.svg";
-import dark from "../assets/dark.svg";
+import light from "../assets/light.png";
+import dark from "../assets/dark.png";
 import { motion } from "framer-motion";
 
 function Header() {
@@ -43,7 +43,7 @@ function Header() {
   return (
     <header className="">
       <nav
-        className="flex items-center justify-between p-6 dark:bg-darkk dark:text-white"
+        className="flex items-center justify-between mt-8 p-6 md:p-6 md:mt-0 dark:bg-darkk dark:text-white"
         aria-label="Global"
       >
         <motion.a
@@ -82,7 +82,10 @@ function Header() {
             className="h-5 w-auto cursor-pointer"
             onClick={handleDarkModeToggle}
           ></motion.img>
-          <a href="/%PUBLIC_URL%/sulyman_khalid.pdf" target="_blank">
+          <a
+            href="https://docs.google.com/document/d/1ooEUmsNJ4pMZ4jRyLbVykJ6qFp3pTZb5QjGsxJ98RN4/edit?usp=sharing"
+            target="_blank"
+          >
             <motion.button
               initial={{ y: -10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
@@ -103,11 +106,11 @@ function Header() {
         </div>
         {/*Mobile slide*/}
         <div
-          className={`bg-white dark:bg-darkk h-screen z-20 w-full fixed overflow-hidden bottom-0 p-8 flex flex-col gap-18 md:hidden ${
+          className={`bg-white dark:bg-darkk h-full z-20 w-full fixed overflow-hidden bottom-0 p-7 pt-16 flex flex-col gap-18 md:hidden ${
             mobileMenuOpen ? "right-0" : "right-[-50rem]"
           } transition-all delay-300`}
         >
-          <div className="flex justify-between mt-10">
+          <div className="flex justify-between mt-1">
             <a href="#hero" className="lg:flex-[0.4]">
               <img className="h-8 w-auto" src={logo} alt="logo" />
             </a>
@@ -137,7 +140,7 @@ function Header() {
               initial={{ y: -10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.1, delay: 0.4 }}
-              href="%PUBLIC_URL%/sulyman_khalid.pdf"
+              href="https://docs.google.com/document/d/1ooEUmsNJ4pMZ4jRyLbVykJ6qFp3pTZb5QjGsxJ98RN4/edit?usp=sharing"
               target="_blank"
               className="max-w-min border border-pink px-4 py-1 self-start hover:bg-fuchsia-600 transition-all delay-75 ease-in"
             >
@@ -146,7 +149,7 @@ function Header() {
           </div>
           <a
             href="#"
-            className="max-w-min flex self-start whitespace-nowrap gap-x-2 mb-4"
+            className="max-w-min flex self-start whitespace-nowrap gap-x-2 mb-3"
           >
             <span className="hover:text-fuchsia-300 dark:hover:text-fuchsia-200 dark:text-white text-pink">
               Khalid
