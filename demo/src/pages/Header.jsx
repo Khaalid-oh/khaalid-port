@@ -43,7 +43,7 @@ function Header() {
   return (
     <header className="">
       <nav
-        className="flex items-center justify-between mt-8 p-6 md:p-6 md:mt-0 dark:bg-darkk dark:text-white"
+        className="flex items-center justify-between  mt-2 p-6 md:p-6 md:mt-0 dark:bg-darkk dark:text-white"
         aria-label="Global"
       >
         <motion.a
@@ -106,7 +106,7 @@ function Header() {
         </div>
         {/*Mobile slide*/}
         <div
-          className={`bg-white dark:bg-darkk h-full z-20 w-full fixed overflow-hidden bottom-0 p-7 pt-16 flex flex-col gap-18 md:hidden ${
+          className={`bg-white dark:bg-darkk h-full z-20 w-full fixed overflow-hidden bottom-0 p-7 pt-8 flex flex-col gap-18 md:hidden ${
             mobileMenuOpen ? "right-0" : "right-[-50rem]"
           } transition-all delay-300`}
         >

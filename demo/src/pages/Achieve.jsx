@@ -7,7 +7,7 @@ import AchieveCards from './AchieveCards';
 function Achieve() {
   return (
     <section id="work" className="dark:bg-darkk dark:text-white">
-      <div className="flex flex-col items-center justify-center mt-12">
+      <div className="flex flex-col items-center justify-center mt-14">
         <div className="flex ">
           <span className="text-pink">03.</span>
           <h1 className="text-3xl font-semibold mt-2">Featured projects</h1>

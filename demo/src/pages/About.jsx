@@ -104,7 +104,7 @@ function About() {
           href="#"
           className="hover:text-pink"
         >
-          <span className="text-pink">05.</span>C#
+          <span className="text-pink">05.</span>Java
         </motion.a>
         <motion.a
           initial={{ x: -10, opacity: 0 }}
@@ -113,7 +113,7 @@ function About() {
           href="#"
           className="hover:text-pink"
         >
-          <span className="text-pink">06.</span>Java
+          <span className="text-pink">06.</span>NodeJS
         </motion.a>
         <motion.a
           initial={{ x: -10, opacity: 0 }}
@@ -122,7 +122,7 @@ function About() {
           href="#"
           className="hover:text-pink"
         >
-          <span className="text-pink">07.</span>NodeJS
+          <span className="text-pink">07.</span>MongoDB
         </motion.a>
         <motion.a
           initial={{ x: -10, opacity: 0 }}
@@ -131,29 +131,8 @@ function About() {
           href="#"
           className="hover:text-pink"
         >
-          <span className="text-pink">08.</span>MongoDB
+          <span className="text-pink">08.</span>WordPress
         </motion.a>
-        {/* <a href="#" className="hover:text-pink">
-          <span className="text-pink">02.</span>Javscript(E6+)
-        </a>
-        <a href="#" className="hover:text-pink">
-          <span className="text-pink">03.</span>Typscript
-        </a>
-        <a href="#" className="hover:text-pink">
-          <span className="text-pink">04.</span>React
-        </a>
-        <a href="#" className="hover:text-pink">
-          <span className="text-pink">05.</span>Vue
-        </a>
-        <a href="#" className="hover:text-pink">
-          <span className="text-pink">06.</span>NodeJS
-        </a>
-        <a href="#" className="hover:text-pink">
-          <span className="text-pink">07.</span>WordPress
-        </a>
-        <a href="#" className="hover:text-pink">
-          <span className="text-pink">08.</span>WebRTC
-        </a> */}
       </div>
     </section>
   );

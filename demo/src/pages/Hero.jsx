@@ -5,7 +5,7 @@ import { delay, motion } from "framer-motion";
 
 function Hero() {
   return (
-    <section id='hero' className="text-start mt-24 md:mt-32">
+    <section id='hero' className="text-start mt-12 md:mt-32">
       <motion.p
         initial={{ y: -10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
