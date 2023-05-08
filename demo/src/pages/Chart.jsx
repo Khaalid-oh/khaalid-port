@@ -48,6 +48,7 @@ const data = [
   },
 ];
 
+
 function Chart() {
   return (
     <div className="dark:bg-darkk dark:text-midnight">
