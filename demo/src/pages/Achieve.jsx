@@ -22,7 +22,7 @@ function Achieve() {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <a href="https://nft-explorer-v-2-1-0.onrender.com/" target="_blank">
           <AchieveCards
-            title="Altura NFT"
+            title="NFT X"
             description="Developed an app that fetches the NFT  of a giving address using the Alchemy API. This Project was a technical assestment for Web3 Frontend Engineer role at Altura."
             listItem={["React", "Tailwind", "Alchemy"]}
           />
