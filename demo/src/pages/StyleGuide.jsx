@@ -24,7 +24,7 @@ function StyleGuide() {
           </div>
           <div className="flex flex-col gap-y-3 self-start mt-8 items-center">
             <div className="bg-midnight w-24 h-24 rounded-full shadow-2xl hover:-translate-y-2 transition-transform duration-300"></div>
-            <p className="text-midnight">#9C27B0</p>
+            <p className="text-midnight">#8D7192</p>
           </div>
           <div className="flex flex-col gap-y-3 self-start mt-8 items-center">
             <div className="bg-white w-24 h-24 rounded-full shadow-2xl hover:-translate-y-2 transition-transform duration-300"></div>
