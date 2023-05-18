@@ -1,5 +1,4 @@
 import React, { PureComponent } from "react";
-import { motion } from "framer-motion";
 import {
   LineChart,
   Line,
@@ -52,11 +51,7 @@ const data = [
 
 function Chart() {
   return (
-    <motion.div
-      initial={{ y: -40, opacity: 0 }}
-      whileInView={{ y: 0, scale: 1, opacity: 1 }}
-      transition={{ duration: 1.2}}
-     className="dark:bg-darkk dark:text-midnight">
+    <div className="dark:bg-darkk dark:text-midnight">
       <div className="flex flex-col mt-16 items-center justify-center">
         <h3 className="text-2xl font-bold dark:text-white">
           Simple Line Chart
@@ -92,7 +87,7 @@ function Chart() {
           />
         </LineChart>
       </ResponsiveContainer>
-    </motion.div>
+    </div>
   );
 }
 

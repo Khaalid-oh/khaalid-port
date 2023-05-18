@@ -1,17 +1,12 @@
 import React from 'react'
 import AchieveCards from './AchieveCards';
-import { motion } from "framer-motion";
 
 
 
 
 function Achieve() {
   return (
-    <motion.section 
-      initial={{ y: -40, opacity: 0 }}
-      whileInView={{ y: 0, scale: 1, opacity: 1 }}
-      transition={{ duration: 1.2}}
-    id="work" className="dark:bg-darkk dark:text-white">
+    <section id="work" className="dark:bg-darkk dark:text-white">
       <div className="flex flex-col items-center justify-center mt-14">
         <div className="flex ">
           <span className="text-pink">03.</span>
@@ -81,7 +76,7 @@ function Achieve() {
           />
         </a>
       </div>
-    </motion.section>
+    </section>
   );
 }
 

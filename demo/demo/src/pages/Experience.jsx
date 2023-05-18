@@ -4,7 +4,6 @@ import Combinator from './works/Combinator';
 import Kabu from './works/Kabu';
 import Service from './works/Service';
 import Byc from './works/Byc';
-import { delay, motion } from "framer-motion";
 
 function Experience() {
   const [blackBird, setBlackBird] = useState(true)
@@ -56,14 +55,7 @@ function Experience() {
          };
 
   return (
-    <motion.section
-      initial={{ y: -40, opacity: 0 }}
-      whileInView={{ y: 0, scale: 1, opacity: 1 }}
-      transition={{ duration: 1.2}}
-      //viewport = {{once: true}}
-      id="experience"
-      className="dark:bg-darkk dark:text-white"
-    >
+    <section id="experience" className="dark:bg-darkk dark:text-white">
       <div className="mt-16">
         <div className="flex">
           <p className="text-pink">02.</p>
@@ -135,7 +127,7 @@ function Experience() {
           {service && <Service />}
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 }
 

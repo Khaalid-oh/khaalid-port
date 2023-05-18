@@ -1,12 +1,8 @@
 import React from 'react'
-import { motion } from "framer-motion";
 
 function Contact() {
   return (
-    <motion.section
-      initial={{ y: -40, opacity: 0 }}
-      whileInView={{ y: 0, scale: 1, opacity: 1 }}
-      transition={{ duration: 1.2 }}
+    <section
       id="contact"
       className="mt-20 flex flex-col justify-center dark:bg-darkk dark:text-white items-center gap-2"
     >
@@ -32,7 +28,7 @@ function Contact() {
           Contact me
         </button>
       </a>
-    </motion.section>
+    </section>
   );
 }
 

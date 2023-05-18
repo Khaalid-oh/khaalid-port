@@ -1,14 +1,8 @@
 import React from 'react'
-import { motion } from "framer-motion";
 
 function StyleGuide() {
   return (
-    <motion.section
-      initial={{ y: -40, opacity: 0 }}
-      whileInView={{ y: 0, scale: 1, opacity: 1 }}
-      transition={{ duration: 1.2 }}
-      className="dark:bg-darkk dark:text-white"
-    >
+    <section className="dark:bg-darkk dark:text-white">
       <div className="flex flex-col mt-16 items-center justify-center">
         <h3 className="text-2xl font-bold">Style Guide</h3>
         <p className="text-pink">Colors</p>
@@ -74,7 +68,7 @@ function StyleGuide() {
           </div>
         </div>
       </div>
-    </motion.section>
+    </section>
   );
 }
 
