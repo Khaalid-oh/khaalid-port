@@ -5,7 +5,7 @@ import { delay, motion } from "framer-motion";
 
 function Hero() {
   return (
-    <section id='hero' className="text-start mt-12 md:mt-32">
+    <section id="hero" className="text-start mt-12 md:mt-32">
       <motion.p
         initial={{ y: -10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
@@ -28,24 +28,26 @@ function Hero() {
         transition={{ duration: 0.3, delay: 1 }}
         className="text-4xl sm:text-6xl font-semibold text-midnight mt-2 xl:mt-3"
       >
-        I build things for the web.
+        I bring technology to life.
       </motion.h2>
       <motion.p
         initial={{ y: -10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.3, delay: 1.2 }}
-        className="text-midnight mt-2 xl:mt-3 sm:w-3/4"
+        className="text-midnight mt-2 xl:mt-3"
       >
-        I’m a Lagos-based software engineer who specializes in building (and
-        occasionally designing) exceptional digital experiences. Currently, I’m
-        an engineer at
+        I’m an enterprising software engineer residing in the heart of Africa,
+        where I delight in architecting and occasionally crafting impeccable
+        digital journeys and creating accessible, user-centric products that
+        make technology more human. In my previous role at
         <a
-          href="#"
+          href="https://www.blackbird.vc/"
           className="text-pink hover:text-darkk dark:hover:text-white mx-2"
         >
           &lt;BlackBird/&gt;
         </a>
-        focused on building accessible, human-centered products.
+        I prototyped a continuous integration system to resolve broken builds
+        and simplify the deployment process.
       </motion.p>
       <a href="https://www.linkedin.com/in/khaliid-oh/" target="_blank">
         <motion.button className="border border-pink items-center w-36 h-8 mt-4 xl:mt-6 hover:bg-fuchsia-200 dark:hover:bg-fuchsia-600 transition-all delay-75 ease-in">

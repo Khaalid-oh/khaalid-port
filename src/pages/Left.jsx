@@ -8,13 +8,13 @@ import { AiOutlineCodepen } from "react-icons/ai";
 function Left() {
   return (
     <div className="fixed w-10 bottom-0 left-12 flex-col items-center h-80 gap-y-6 hidden xl:flex">
-      <a href="https://github.com/Khaliid-oh/" target="_blank">
+      <a href="https://github.com/Khaalid-oh/" target="_blank">
         <TbBrandGithub
           size={20}
           className="text-midnight hover:text-pink h-5 w-5 transition-all delay-200 ease-in hover:h-6 hover:w-6 cursor-pointer"
         />
       </a>
-      <a href="https://www.instagram.com/khaliid_oh/" target="">
+      <a href="https://www.instagram.com/khaalid_oh/" target="_blank">
         <TbBrandInstagram
           size={20}
           className="text-midnight hover:text-pink h-5 w-5 transition-all delay-200 ease-in hover:h-6 hover:w-6 cursor-pointer"

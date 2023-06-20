@@ -19,29 +19,24 @@ function About() {
             transition={{ duration: 0.3, delay: 1.5 }}
             className="text-midnight mt-2"
           >
-            Hello! My name is Khalid and I enjoy creating things that live on
-            the internet. My interest in web development started back in 2012
-            when I decided to try editing custom Tumblr themes - turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS! Fast-forward to today, and I've had the privilege of working at
-            <a href="#" className="text-pink mx-2">
-              an advertising agency,
+            Hello there! My name is
+            <a
+              href="https://sulymankhalid.com/"
+              target="_blank"
+              className="text-pink mx-2 hover:text-midnight"
+            >
+              &lt;Khalid/&gt;
             </a>
-            <a href="#" className="text-pink mx-2">
-              a start-up,
-            </a>
-            <a href="#" className="text-pink mx-2">
-              a huge corporation,
-            </a>
-            <a href="#" className="text-pinkmx-2">
-              and a student-led design studio.
-            </a>
-            My main focus these days is building accessible, inclusive products
-            and digital experiences at
-            <a href="#" className="text-pink mx-2">
-              &lt;BlackBird/&gt;
-            </a>
-            for a variety of clients.
+            and I enjoy creating things that live on the internet. With an
+            unwavering focus on designing experiences rather than just building
+            interfaces, I am passionate about transforming complex problems into
+            simple, beautiful, and intuitive solutions. My belief is that
+            software, at its best, is an invisible bridge connecting people to
+            what they love - and it's my job to construct that bridge. When not
+            immersed in lines of code, you'll likely find me exploring new tech
+            trends or absorbed in a good book, constantly feeding my insatiable
+            curiosity and love for learning. <br />
+            Here is a list of technologies I have recently been working with:
           </motion.p>
         </div>
 
@@ -49,7 +44,7 @@ function About() {
           initial={{ x: 10, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.3, delay: 1.5 }}
-          className="flex-1 self-end sm:self-center relative top-2 md:top-20 p-2 xl:ml-6"
+          className="flex-1 self-end sm:self-center relative top-2 md:top-20 p-2 xl:ml-6 xl:top-14"
         >
           <img
             src={photo}
@@ -60,7 +55,7 @@ function About() {
         </motion.div>
       </div>
 
-      <div className="grid grid-cols-2 gap-4 mt-8 sm:mt-6 max-w-[250px] flex-wrap">
+      <div className="grid grid-cols-2 gap-4 mt-10 sm:mt-0 max-w-[250px] flex-wrap">
         <motion.a
           initial={{ x: -10, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}

@@ -7,18 +7,20 @@ import { motion } from "framer-motion";
 
 function Achieve() {
   return (
-    <motion.section 
+    <motion.section
       initial={{ y: -40, opacity: 0 }}
       whileInView={{ y: 0, scale: 1, opacity: 1 }}
-      transition={{ duration: 1.2}}
-    id="work" className="dark:bg-darkk dark:text-white">
+      transition={{ duration: 1.2 }}
+      id="work"
+      className="dark:bg-darkk dark:text-white"
+    >
       <div className="flex flex-col items-center justify-center mt-14">
         <div className="flex ">
           <span className="text-pink">03.</span>
           <h1 className="text-3xl font-semibold mt-2">Featured projects</h1>
         </div>
         <a
-          href="https://github.com/Khaliid-oh/"
+          href="https://github.com/Khaalid-oh/"
           className="text-pink hover:text-midnight"
         >
           view the source
