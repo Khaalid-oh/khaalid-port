@@ -10,7 +10,7 @@ function BlackBird() {
             @BlackBird
           </h3>
         </div>
-        <p className="text-midnight ml-6">May 2022 - Present</p>
+        <p className="text-midnight ml-6">Nov 2022 - June</p>
         <div className="ml-6 mt-2 sm:w-3/4">
          Wrote modern, performant,
           maintainable code for a diverse array of client and internal projects.

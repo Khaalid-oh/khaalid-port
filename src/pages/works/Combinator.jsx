@@ -10,7 +10,7 @@ function Combinator() {
             @Combinator
           </h3>
         </div>
-        <p className="text-midnight ml-6">May 2022 - Dec 2022</p>
+        <p className="text-midnight ml-6">May 2022 - Nov 2022</p>
         <div className="ml-6 mt-2 sm:w-3/4">
           As a Fullstack-Frontend working at Y Combinator, I was able to have the
           opportunity to work on cutting-edge technologies and build innovative

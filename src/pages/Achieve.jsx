@@ -34,23 +34,19 @@ function Achieve() {
             listItem={["React", "Tailwind", "Alchemy"]}
           />
         </a>
+        <a href="https://airbnb-clone-lvb6.vercel.app/" target="_blank">
+          <AchieveCards
+            title="Airbnb Clone"
+            description="A clone of the Airbnb webiste that show lists of apartments on the home page. This is a mock project for a frontend developer role at a listing company."
+            listItem={["Next", "Tailwind", "MUI"]}
+          />
+        </a>
 
         <a href="https://github.com/Khaliid-oh/Forex-2.0" target="_blank">
           <AchieveCards
             title="Forex Trading 2.0"
             description="Developed a comprehensive forex trading course website with interactive lessons and quizzes to enhance users understanding of the forex market."
-            listItem={["Next JS", "Tailwind", "Recharts"]}
-          />
-        </a>
-
-        <a
-          href="https://github.com/Khaliid-oh/blackbird-harrison-ai"
-          target="_blank"
-        >
-          <AchieveCards
-            title="Harrison AI"
-            description="Developed and tested a secure login page for Harrison AI, a subsidiary of BlackBird Australia using the Jest framework and Enzyme testing utility."
-            listItem={["Next JS", "Jest", "Enzyme"]}
+            listItem={["Next", "Tailwind", "Recharts"]}
           />
         </a>
 
@@ -61,7 +57,7 @@ function Achieve() {
           <AchieveCards
             title="CTS"
             description="Developed a Correspondence Tracking System for an E-Goverment Hackathon with the rest of my team, working majorly on the design and loging page."
-            listItem={["Figma", "React", "Node JS"]}
+            listItem={["Figma", "React", "Node.js"]}
           />
         </a>
 
@@ -78,8 +74,8 @@ function Achieve() {
         <a href="https://github.com/Khaliid-oh/screencastmario" target="_blank">
           <AchieveCards
             title="Mario"
-            description="Developed and debugged a Typescript version of the Mario running example code base on the UBCx Software Engineering: Introduction course on edX."
-            listItem={["Webpack", "Next", "Node JS"]}
+            description="Developed, debugged and Tested a Typescript version of the Mario running example code base on the complete UBCx Software Engineering course."
+            listItem={["Next", "Node.js", "Enzyme"]}
           />
         </a>
       </div>

@@ -10,7 +10,7 @@ function Service() {
             @A'Service
           </h3>
         </div>
-        <p className="text-midnight ml-6">May 2020 - Dec 2021</p>
+        <p className="text-midnight ml-6">May 2020 - Dec 2020</p>
         <div className="ml-6 mt-2 sm:w-3/4">
           As a designer/developer at A'service, an all inclusive service hub, I was
           responsible for designing and developing user interfaces that provide

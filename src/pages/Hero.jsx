@@ -36,8 +36,7 @@ function Hero() {
         transition={{ duration: 0.3, delay: 1.2 }}
         className="text-midnight mt-2 xl:mt-3"
       >
-        I’m an enterprising software engineer residing in the heart of Africa,
-        where I delight in architecting and occasionally crafting impeccable
+        I’m an enterprising software engineer residing in the heart of Africa, where I delight in architecting and occasionally crafting impeccable
         digital journeys and creating accessible, user-centric products that
         make technology more human. In my previous role at
         <a

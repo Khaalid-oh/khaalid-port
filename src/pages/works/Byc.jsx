@@ -10,7 +10,7 @@ function Byc() {
             @BYC
           </h3>
         </div>
-        <p className="text-midnight ml-6">May 2022 - Dec 2022</p>
+        <p className="text-midnight ml-6">March 2021 - Nov 2021</p>
         <div className="ml-6 mt-2 sm:w-3/4">
           As a Frontend Tutor at Beyond Creativity, I was
           responsible for imparting my expertise and knowledge to aspiring

@@ -44,7 +44,7 @@ function About() {
           initial={{ x: 10, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 0.3, delay: 1.5 }}
-          className="flex-1 self-end sm:self-center relative top-2 md:top-20 p-2 xl:ml-6 xl:top-14"
+          className="flex-1 self-end sm:self-center relative top-2 md:top-20 p-2 xl:ml-6 xl:top-16"
         >
           <img
             src={photo}
@@ -63,7 +63,7 @@ function About() {
           href="#"
           className="hover:text-pink"
         >
-          <span className="text-pink">01.</span>Figma+
+          <span className="text-pink">01.</span>Figma
         </motion.a>
         <motion.a
           initial={{ x: -10, opacity: 0 }}
@@ -81,7 +81,7 @@ function About() {
           href="#"
           className="hover:text-pink"
         >
-          <span className="text-pink">03.</span>Typscript
+          <span className="text-pink">03.</span>Typescript
         </motion.a>
         <motion.a
           initial={{ x: -10, opacity: 0 }}
@@ -99,7 +99,7 @@ function About() {
           href="#"
           className="hover:text-pink"
         >
-          <span className="text-pink">05.</span>Java
+          <span className="text-pink">05.</span>C#
         </motion.a>
         <motion.a
           initial={{ x: -10, opacity: 0 }}

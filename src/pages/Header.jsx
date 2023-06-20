@@ -45,7 +45,7 @@ function Header() {
       <nav
         className="flex items-center justify-between  mt-2 p-6 md:p-6 md:mt-0 dark:bg-darkk dark:text-white"
         aria-label="Global"
-      >
+      >                                                                                                    
         <motion.a
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
