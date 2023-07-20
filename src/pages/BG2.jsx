@@ -17,4 +17,4 @@ function BG2() {
   );
 }
 
-export default BG2;
+export default BG2
