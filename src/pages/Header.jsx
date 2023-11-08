@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 function Header() {
   // const [hover, setHover] = useState(0);
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const navLinks = [
@@ -18,12 +18,12 @@ function Header() {
     { path: "#contact", name: "Contact" },
   ];
   useEffect(() => {
-    if (theme === "light") {
-      document.documentElement.classList.remove("dark");
-      document.documentElement.classList.add("light");
-    } else {
+    if (theme === "dark") {
       document.documentElement.classList.remove("light");
       document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+      document.documentElement.classList.add("light");
     }
   }, [theme]);
 
@@ -37,7 +37,7 @@ function Header() {
 
   const handleDarkModeToggle = () => {
     setIsDarkMode(!isDarkMode);
-    setTheme(theme === "light" ? "dark" : "light");
+    setTheme(theme === "dark" ? "light" : "dark");
   };
 
   const handleMobileNavLinkClick = (path) => {
@@ -83,7 +83,7 @@ function Header() {
             initial={{ y: -10, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.3, delay: 1.5 }}
-            src={isDarkMode ? light : dark}
+            src={isDarkMode ? dark : light}
             alt="dark mode"
             className="h-5 w-auto cursor-pointer"
             onClick={handleDarkModeToggle}
