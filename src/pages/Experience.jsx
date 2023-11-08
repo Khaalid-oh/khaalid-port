@@ -3,54 +3,55 @@ import BlackBird from './works/BlackBird';
 import Combinator from './works/Combinator';
 import Kabu from './works/Kabu';
 import Service from './works/Service';
-import Byc from './works/Byc';
 import { delay, motion } from "framer-motion";
+import Tedbree from './works/Tedbree';
 
 function Experience() {
-  const [blackBird, setBlackBird] = useState(true)
+  const [tedbree, setTedbree] = useState(true);
+  const [blackBird, setBlackBird] = useState(false)
   const [combinator, setCombinator] = useState(false);
   const [kabu, setKabu] = useState(false);
-  const [byc, setByc] = useState(false);
   const [service, setService] = useState(false);
-   
+  
+  
+  const handleTedbree = () => {
+    setTedbree(true);
+    setBlackBird(false);
+    setCombinator(false);
+    setKabu(false);
+    setService(false);
+  };
 
   const handleBlackBird = () => {
+    setTedbree(false);
     setBlackBird(true);
     setCombinator(false);
     setKabu(false);
-    setByc(false);
     setService(false);
   };
 
     const handleCombinator = () => {
+      setTedbree(false);
       setBlackBird(false);
       setCombinator(true);
       setKabu(false);
-      setByc(false);
       setService(false);
     };
 
       const handleKabu = () => {
+        setTedbree(false);
         setBlackBird(false);
         setCombinator(false);
         setKabu(true);
-        setByc(false);
         setService(false);
       };
 
-        const handleByc = () => {
-          setBlackBird(false);
-          setCombinator(false);
-          setKabu(false);
-          setByc(true);
-          setService(false);
-        };
 
          const handleService = () => {
+           setTedbree(false);
            setBlackBird(false);
            setCombinator(false);
            setKabu(false);
-           setByc(false);
            setService(true);
            
          };
@@ -59,7 +60,7 @@ function Experience() {
     <motion.section
       initial={{ y: -40, opacity: 0 }}
       whileInView={{ y: 0, scale: 1, opacity: 1 }}
-      transition={{ duration: 1.2}}
+      transition={{ duration: 1.2 }}
       //viewport = {{once: true}}
       id="experience"
       className="dark:bg-darkk dark:text-white"
@@ -72,6 +73,17 @@ function Experience() {
         </div>
         <div className="flex flex-col sm:flex-row justify-self-start self-center mt-6">
           <ul className="flex flex-row sm:flex-col">
+            <li
+              onClick={handleTedbree}
+              className={`${
+                tedbree
+                  ? "border-b-pink sm:border-b-0 sm:border-l-pink text-pink rounded-sm"
+                  : "border-b-gray-300 sm:border-b-0 sm:border-l-gray-300 text-midnight"
+              }
+                border-b-2 sm:border-l-2 bg-transparent hover:bg-fuchsia-100 dark:hover:bg-fuchsia-600 dark:hover:text-white py-3 cursor-pointer transition-all duration-300 px-2 sm:px-8`}
+            >
+              Tedbree
+            </li>
             <li
               onClick={handleBlackBird}
               className={`${
@@ -92,7 +104,7 @@ function Experience() {
               }
                 border-b-2 sm:border-l-2 bg-transparent hover:bg-fuchsia-100 dark:hover:bg-fuchsia-600 dark:hover:text-white py-3 cursor-pointer transition-all duration-300 px-2 sm:px-8`}
             >
-              Combinators
+              YCombinator
             </li>
             <li
               onClick={handleKabu}
@@ -105,17 +117,7 @@ function Experience() {
             >
               Kabu
             </li>
-            <li
-              onClick={handleByc}
-              className={`${
-                byc
-                  ? "border-b-pink sm:border-b-0 sm:border-l-pink text-pink rounded-sm"
-                  : "border-b-gray-300 sm:border-b-0 sm:border-l-gray-300 text-midnight"
-              }
-                border-b-2 sm:border-l-2 bg-transparent hover:bg-fuchsia-100 dark:hover:bg-fuchsia-600 dark:hover:text-white py-3 cursor-pointer transition-all duration-300 px-2 sm:px-8`}
-            >
-              BYC
-            </li>
+
             <li
               onClick={handleService}
               className={`${
@@ -131,7 +133,7 @@ function Experience() {
           {blackBird && <BlackBird />}
           {combinator && <Combinator />}
           {kabu && <Kabu />}
-          {byc && <Byc />}
+          {tedbree && <Tedbree />}
           {service && <Service />}
         </div>
       </div>

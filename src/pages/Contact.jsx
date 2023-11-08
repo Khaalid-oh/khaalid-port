@@ -12,11 +12,10 @@ function Contact() {
     >
       <h3 className="text-3xl text-pink">04. What's Next?</h3>
       <p className="md:w-3/4 text-center">
-        I'm actively seeking new job opportunities and would love to hear from
-        you if you have any leads or opportunities to share. If you know of any
-        job openings that align with my skills and experience, please don't
-        hesitate to reach out. I'm eager to explore new career paths and take on
-        exciting challenges. So please feel free to send me a
+        I'm open to new opportunities and would love to hear from you, I'm always
+        excited to hear about new opportunities and connect with others in the
+        industry. If you have any questions or just want to drop a friendly
+        hello, feel free to shoot me a message. I'm eager to explore and take on exciting challenges. So please feel free to send me a
         <a
           href="https://wa.link/t89eer"
           target="_blank"

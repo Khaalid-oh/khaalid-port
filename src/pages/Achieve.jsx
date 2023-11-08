@@ -42,10 +42,10 @@ function Achieve() {
           />
         </a>
 
-        <a href="https://github.com/Khaliid-oh/Forex-2.0" target="_blank">
+        <a href="https://ats-frontend-challenge2.vercel.app/" target="_blank">
           <AchieveCards
-            title="Forex Trading 2.0"
-            description="Developed a comprehensive forex trading course website with interactive lessons and quizzes to enhance users understanding of the forex market."
+            title="ATS"
+            description="An intuitive Frontend design for ATS (Applicant Tracking System)  platform, seamlessly merging talent acquisition with advanced analytics for optimized hiring decisions "
             listItem={["Next", "Tailwind", "Recharts"]}
           />
         </a>

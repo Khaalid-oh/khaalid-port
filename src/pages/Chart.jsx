@@ -13,39 +13,39 @@ import {
 
 const data = [
   {
-    name: "Figma",
-    years: 5,
-    proficiency: 90,
+    name: "Next",
+    years: 2,
+    proficiency: 80,
   },
   {
-    name: "HTML/CSS",
-    years: 5,
-    proficiency: 90,
-  },
-  {
-    name: "Javascript",
+    name: "Vue",
     years: 3,
     proficiency: 80,
   },
   {
-    name: "React",
+    name: "React Native",
+    years: 3,
+    proficiency: 80,
+  },
+  {
+    name: "Node.js",
     years: 3,
     proficiency: 85,
   },
   {
-    name: "Node.js",
-    years: 2,
-    proficiency: 70,
-  },
-  {
     name: "MongoDB",
-    years: 1,
-    proficiency: 65,
+    years: 2,
+    proficiency: 85,
   },
   {
-    name: "SQL",
-    years: 2,
-    proficiency: 75,
+    name: "C#",
+    years: 6,
+    proficiency: 95,
+  },
+  {
+    name: "Figma",
+    years: 6,
+    proficiency: 95,
   },
 ];
 

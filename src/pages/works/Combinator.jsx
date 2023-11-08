@@ -7,12 +7,12 @@ function Combinator() {
         <div className="flex gap-x-2 mt-2 ml-6 w-3/4">
           <p className="text-xl text-midnight">Engineer</p>
           <h3 className="font-extrabold text-xl text-pink hover:underline">
-            @Combinator
+            @Y Combinator
           </h3>
         </div>
-        <p className="text-midnight ml-6">May 2022 - Nov 2022</p>
+        <p className="text-midnight ml-6">Jan 2022 - Sep 2022</p>
         <div className="ml-6 mt-2 sm:w-3/4">
-          As a Fullstack-Frontend working at Y Combinator, I was able to have the
+          As a Fullstack intern working at Y Combinator, I was able to have the
           opportunity to work on cutting-edge technologies and build innovative
           web applications. I also had the opportunity to collaborate with a talented team of
           developers and gain valuable experience in developing and deploying

@@ -7,6 +7,7 @@ import dark from "../assets/dark.png";
 import { motion } from "framer-motion";
 
 function Header() {
+  // const [hover, setHover] = useState(0);
   const [theme, setTheme] = useState("light");
   const [isDarkMode, setIsDarkMode] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -26,6 +27,10 @@ function Header() {
     }
   }, [theme]);
 
+  // const handleHover = (val) => {
+  //   setHover(val);
+  // };
+
   const handleMobileNavToggle = () => {
     setMobileMenuOpen((prev) => !prev);
   };
@@ -43,9 +48,9 @@ function Header() {
   return (
     <header className="">
       <nav
-        className="flex items-center justify-between  mt-2 p-6 md:p-6 md:mt-0 dark:bg-darkk dark:text-white"
+        className="flex items-center justify-between mt-2 p-6 md:p-6 md:mt-0 dark:bg-darkk dark:text-white"
         aria-label="Global"
-      >                                                                                                    
+      >
         <motion.a
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -64,7 +69,8 @@ function Header() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.3, delay: i * 0.3 }}
               href={link.path}
-              className="hover:text-pink transition-all delay-75 ease-in"
+              onMouseEnter={() => handleHover(i)}
+              className={` hover:text-pink transition-all delay-50 ease-in-out`}
               key={"navlinks-" + i}
             >
               <span className="text-pink">0{i + 1}.</span> {link.name}

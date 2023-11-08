@@ -10,7 +10,7 @@ function Kabu() {
             @Kabu
           </h3>
         </div>
-        <p className="text-midnight ml-6">Apr 2020 - May 2022</p>
+        <p className="text-midnight ml-6">Feb 2021 - July 2022</p>
         <div className="ml-6 mt-2 sm:w-3/4">
           As a designer/developer at Kabu, I designed and improved the user
           experience of their e-hailing app, resulting in a 20% increase in user
