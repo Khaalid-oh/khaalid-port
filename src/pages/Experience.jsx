@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import BlackBird from './works/BlackBird';
 import Combinator from './works/Combinator';
 import Kabu from './works/Kabu';
-import Service from './works/Service';
+import Stakwork from './works/Stakwork'
 import { delay, motion } from "framer-motion";
 import Tedbree from './works/Tedbree';
 
@@ -11,7 +11,7 @@ function Experience() {
   const [blackBird, setBlackBird] = useState(false)
   const [combinator, setCombinator] = useState(false);
   const [kabu, setKabu] = useState(false);
-  const [service, setService] = useState(false);
+  const [stakwork, setStakwork] = useState(false);
   
   
   const handleTedbree = () => {
@@ -19,7 +19,7 @@ function Experience() {
     setBlackBird(false);
     setCombinator(false);
     setKabu(false);
-    setService(false);
+    setStakwork(false);
   };
 
   const handleBlackBird = () => {
@@ -27,7 +27,7 @@ function Experience() {
     setBlackBird(true);
     setCombinator(false);
     setKabu(false);
-    setService(false);
+    setStakwork(false);
   };
 
     const handleCombinator = () => {
@@ -35,7 +35,7 @@ function Experience() {
       setBlackBird(false);
       setCombinator(true);
       setKabu(false);
-      setService(false);
+      setStakwork(false);
     };
 
       const handleKabu = () => {
@@ -43,16 +43,16 @@ function Experience() {
         setBlackBird(false);
         setCombinator(false);
         setKabu(true);
-        setService(false);
+        setStakwork(false);
       };
 
 
-         const handleService = () => {
+         const handleStakwork = () => {
            setTedbree(false);
            setBlackBird(false);
            setCombinator(false);
            setKabu(false);
-           setService(true);
+           setStakwork(true);
            
          };
 
@@ -85,6 +85,17 @@ function Experience() {
               Tedbree
             </li>
             <li
+              onClick={handleStakwork}
+              className={`${
+                stakwork
+                  ? "border-b-pink sm:border-b-0 sm:border-l-pink text-pink rounded-sm"
+                  : "border-b-gray-300 sm:border-b-0 sm:border-l-gray-300 text-midnight"
+              }
+                border-b-2 sm:border-l-2 bg-transparent hover:bg-fuchsia-100 dark:hover:bg-fuchsia-600 dark:hover:text-white py-3 cursor-pointer transition-all duration-300 px-2 sm:px-8`}
+            >
+              Stakwork
+            </li>
+            <li
               onClick={handleBlackBird}
               className={`${
                 blackBird
@@ -95,6 +106,18 @@ function Experience() {
             >
               BlackBird
             </li>
+            {/* <li
+              onClick={handleKabu}
+              className={`${
+                kabu
+                  ? "border-b-pink sm:border-b-0 sm:border-l-pink text-pink rounded-sm"
+                  : "border-b-gray-300 sm:border-b-0 sm:border-l-gray-300 text-midnight"
+              }
+                border-b-2 sm:border-l-2 bg-transparent hover:bg-fuchsia-100 dark:hover:bg-fuchsia-600 dark:hover:text-white py-3 cursor-pointer transition-all duration-300 px-2 sm:px-8`}
+            >
+              Kabu
+            </li> */}
+
             <li
               onClick={handleCombinator}
               className={`${
@@ -106,35 +129,12 @@ function Experience() {
             >
               YCombinator
             </li>
-            <li
-              onClick={handleKabu}
-              className={`${
-                kabu
-                  ? "border-b-pink sm:border-b-0 sm:border-l-pink text-pink rounded-sm"
-                  : "border-b-gray-300 sm:border-b-0 sm:border-l-gray-300 text-midnight"
-              }
-                border-b-2 sm:border-l-2 bg-transparent hover:bg-fuchsia-100 dark:hover:bg-fuchsia-600 dark:hover:text-white py-3 cursor-pointer transition-all duration-300 px-2 sm:px-8`}
-            >
-              Kabu
-            </li>
-
-            <li
-              onClick={handleService}
-              className={`${
-                service
-                  ? "border-b-pink sm:border-b-0 sm:border-l-pink text-pink rounded-sm"
-                  : "border-b-gray-300 sm:border-b-0 sm:border-l-gray-300 text-midnight"
-              }
-                border-b-2 sm:border-l-2 bg-transparent hover:bg-fuchsia-100 dark:hover:bg-fuchsia-600 dark:hover:text-white pt-3 sm:pt-0 sm:py-3 cursor-pointer transition-all duration-300 px-2 sm:px-8`}
-            >
-              A'services
-            </li>
           </ul>
+          {tedbree && <Tedbree />}
+          {stakwork && <Stakwork />}
           {blackBird && <BlackBird />}
           {combinator && <Combinator />}
           {kabu && <Kabu />}
-          {tedbree && <Tedbree />}
-          {service && <Service />}
         </div>
       </div>
     </motion.section>

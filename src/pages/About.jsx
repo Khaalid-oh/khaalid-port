@@ -19,17 +19,13 @@ function About() {
             transition={{ duration: 0.3, delay: 1.5 }}
             className="text-midnight mt-2"
           >
-            Hello there! My name is
-            <a
-              href="https://sulymankhalid.com/"
+            Hello there! My name is <a
+              href="https://www.linkedin.com/in/khaliid-oh/"
               target="_blank"
               className="text-pink mx-2 hover:text-midnight"
             >
               &lt;Khalid/&gt;
-            </a>
-            and I enjoy creating things that live on the internet. With an
-            unwavering focus on designing experiences rather than just building
-            interfaces, I am passionate about transforming complex problems into
+            </a>, I am passionate about transforming complex problems into
             simple, beautiful, and intuitive solutions. My belief is that
             software, at its best, is an invisible bridge connecting people to
             what they love - and it's my job to construct that bridge. When not
@@ -90,7 +86,7 @@ function About() {
           href="#"
           className="hover:text-pink"
         >
-          <span className="text-pink">04.</span>React
+          <span className="text-pink">04.</span>React(NEXT.js)
         </motion.a>
         <motion.a
           initial={{ x: -10, opacity: 0 }}

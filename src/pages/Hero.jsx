@@ -10,7 +10,7 @@ function Hero() {
         initial={{ y: -10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.3, delay: 0.8 }}
-        className="text-pink"
+        className="text-pink font-bold text-md"
       >
         Hi, my name is
       </motion.p>
@@ -38,18 +38,18 @@ function Hero() {
       >
         I’m an enterprising software engineer residing in the heart of Africa, where I delight in architecting and occasionally crafting impeccable
         digital journeys and creating accessible, user-centric products that
-        make technology more human. In my previous role at
+        make technology more human. In my current role at
         <a
-          href="https://www.blackbird.vc/"
+          href="https://tedbree.com/"
           className="text-pink hover:text-darkk dark:hover:text-white mx-2"
         >
-          &lt;BlackBird/&gt;
+          &lt;Tedbree/&gt;
         </a>
         I prototyped a continuous integration system to resolve broken builds
         and simplify the deployment process.
       </motion.p>
       <a href="https://www.linkedin.com/in/khaliid-oh/" target="_blank">
-        <motion.button className="border border-pink items-center w-36 h-8 mt-4 xl:mt-6 hover:bg-fuchsia-200 dark:hover:bg-fuchsia-600 transition-all delay-75 ease-in">
+        <motion.button className="border border-pink items-center w-36 h-12 mt-4 xl:mt-6 hover:bg-fuchsia-200 dark:hover:bg-fuchsia-600 transition-all delay-75 ease-in">
           Get In touch
         </motion.button>
       </a>

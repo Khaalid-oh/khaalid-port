@@ -13,7 +13,7 @@ import {
 
 const data = [
   {
-    name: "Next",
+    name: "Next.js",
     years: 2,
     proficiency: 80,
   },
@@ -23,7 +23,7 @@ const data = [
     proficiency: 80,
   },
   {
-    name: "React Native",
+    name: "(React) Native",
     years: 3,
     proficiency: 80,
   },

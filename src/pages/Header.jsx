@@ -89,7 +89,7 @@ function Header() {
             onClick={handleDarkModeToggle}
           ></motion.img>
           <a
-            href="https://docs.google.com/document/d/1ooEUmsNJ4pMZ4jRyLbVykJ6qFp3pTZb5QjGsxJ98RN4/edit?usp=sharing"
+            href="https://docs.google.com/document/d/1FWBr2aD5qe4wglTmhqI_2grVTQCNrabCTftdAaM1ztc/edit?usp=sharing"
             target="_blank"
           >
             <motion.button

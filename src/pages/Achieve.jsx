@@ -27,54 +27,54 @@ function Achieve() {
         </a>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
-        <a href="https://nft-explorer-v-2-1-0.onrender.com/" target="_blank">
+        <a href="https://tech1m.com/" target="_blank">
           <AchieveCards
-            title="NFT X"
-            description="Developed an app that fetches the NFT  of a giving address using the Alchemy API. This Project was a technical assestment for Web3 Frontend Engineer role at Altura."
-            listItem={["React", "Tailwind", "Alchemy"]}
+            title="Tech1M Web"
+            description="Tech1M is a cutting-edge recruitment intelligence platform leveraging AI and data to automates recruitment, from applications to hiring."
+            listItem={["React", "Tailwind", "UUI"]}
           />
         </a>
-        <a href="https://airbnb-clone-lvb6.vercel.app/" target="_blank">
+        <a href="https://sphinx.chat/" target="_blank">
           <AchieveCards
-            title="Airbnb Clone"
-            description="A clone of the Airbnb webiste that show lists of apartments on the home page. This is a mock project for a frontend developer role at a listing company."
+            title="Sphinx Chat"
+            description="Sphinx Chat is a decentralize social media platform that leverage on the bitcoin lightning network to offer fast secure, free and fast communication."
             listItem={["Next", "Tailwind", "MUI"]}
           />
         </a>
 
-        <a href="https://ats-frontend-challenge2.vercel.app/" target="_blank">
+        <a href="https://www.stakwork.com/" target="_blank">
           <AchieveCards
-            title="ATS"
-            description="An intuitive Frontend design for ATS (Applicant Tracking System)  platform, seamlessly merging talent acquisition with advanced analytics for optimized hiring decisions "
+            title="Stakwork Web"
+            description="Stakwork is intuitive upwork-like website with business process automation that integrates an always-on network of cloudsourced workers. "
             listItem={["Next", "Tailwind", "Recharts"]}
           />
         </a>
 
         <a
-          href="https://www.figma.com/file/zYFfi3kHAWG11BTgUC7Ggn/HAKATHON?t=90p2LoJrzidur0bx-6"
+          href="https://www.figma.com/design/6EWH2YqySkCAbTpGl1GQjH/Khaalid's-Portfolio?node-id=0-1&t=byGXNL2GAJGaa0cs-0"
           target="_blank"
         >
           <AchieveCards
-            title="CTS"
-            description="Developed a Correspondence Tracking System for an E-Goverment Hackathon with the rest of my team, working majorly on the design and loging page."
-            listItem={["Figma", "React", "Node.js"]}
+            title="Identiti Design"
+            description="Identiti is an intutive design of a clothing brand concept with classic, minimalistic, comfortable design and style for African Men in diaspora."
+            listItem={["Figma", "Adode PS", "Adobe I"]}
           />
         </a>
 
         <a
-          href="https://www.figma.com/file/CFNCyDfgzlQOHRotwFdffo/NFT-Landing-Page?node-id=0%3A1&t=YFHmCpr65DpgnvSL-1"
+          href="https://www.figma.com/design/6EWH2YqySkCAbTpGl1GQjH/Khaalid's-Portfolio?node-id=1-3814&t=byGXNL2GAJGaa0cs-0"
           target="_blank"
         >
           <AchieveCards
-            title="Alaga NFT"
-            description="Designed and developed a responsive NFT landing page for indigenous NFT art collection ERC-721 (a smart contract standard) on Ethereum's blockchain. "
-            listItem={["Figma", "Next", "Chakra UI"]}
+            title="Rgxta Design"
+            description="Rgxta is a Fintech design concept of a digital mobile banking app that brings easy and fast financial services to the bankless accross the globe. "
+            listItem={["Figma", "Adobe PS", "TWUI"]}
           />
         </a>
-        <a href="https://github.com/Khaliid-oh/screencastmario" target="_blank">
+        <a href="https://www.figma.com/design/6EWH2YqySkCAbTpGl1GQjH/Khaalid's-Portfolio?node-id=67-11003&t=byGXNL2GAJGaa0cs-0" target="_blank">
           <AchieveCards
-            title="Mario"
-            description="Developed, debugged and Tested a Typescript version of the Mario running example code base on the complete UBCx Software Engineering course."
+            title="Nexus Design"
+            description="Nexus is a white-label customer relationship management design that is adaptable for any business looking to manage and keep track of client-customer relationship."
             listItem={["Next", "Node.js", "Enzyme"]}
           />
         </a>
